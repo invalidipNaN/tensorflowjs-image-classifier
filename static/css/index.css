@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+  
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#top {
+    background: transparent;
+    flex: 1;
+    background: #eee;
+    margin: 2em;
+}
+
+#console{
+    display: block;
+    border: #333 1px dashed;
+    width: 100%;
+    min-height: 4em;
+}
+
+#top> h5{
+    font-weight: 200;
+    text-align: center;
+    margin: 0.5em;
+}
+
+#top>video{
+    margin: 0.5em;
+    border: #333 1px solid;
+}
+
+#top>ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#top>ul li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#top>ul li>button {
+    width: 100%;
+}
